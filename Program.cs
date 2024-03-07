@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.Write("Введите количество строк в массиве: ");
+int n = int.Parse(Console.ReadLine());
+string[] array = new string[n];
+
+Console.WriteLine("введите строки массива:");
+for (int i = 0; i < n; i++)
+{
+    array[i] = Console.ReadLine();
+}
